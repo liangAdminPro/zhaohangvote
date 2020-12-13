@@ -1,0 +1,17 @@
+{
+  "apps": [
+    {
+      "name": "cmb.gcw",
+      "script": "/usr/local/vote/cmbvote/server/index.js",
+      "log_date_format": "MM-DD HH:mm:ss.SSS",
+      "env": {
+        "NODE_ENV": "production",
+        "OS": "CentOS",
+        "BIND_IP": "0.0.0.0",
+        "PORT": 8118,
+        "ROOT_URL": "https://zzmp.mbcloud.com/voteSrv",
+        "MONGO_URL": "mongodb://zzcmb_vote:Zzcmb2019@192.168.1.13:27017/admin"
+      }
+    }
+  ]
+}

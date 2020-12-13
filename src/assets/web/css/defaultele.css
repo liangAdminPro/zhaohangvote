@@ -1,0 +1,13 @@
+/* 重置ele样式 */
+/* .el-input--prefix .el-input__inner,.el-popper[x-placement^=bottom]{
+	/* background-color:#ecf0f5!important; 
+} */
+.el-date-editor.el-input, .el-date-editor.el-input__inner{
+	width: 233px;
+}
+.ql-toolbar.ql-snow + .ql-container.ql-snow{
+	min-height:180px;
+}
+.ql-toolbar.ql-snow .ql-formats{
+	margin-right:5px!important;
+}

@@ -1,0 +1,39 @@
+.white{
+    padding:10px 10px 0 20px  ;
+    background:#ecf0f5;
+    height:100%;
+}
+.white-content{
+    padding-top:10px;
+    text-align: center;
+    background-color: #fff;
+    margin-top:5px;
+}
+label[for]{
+    font-weight: 400;
+    cursor: pointer;
+
+}
+label[for="importwh"]{
+    padding: 4px 12px;
+    background-color: #8000FF!important;
+    border-color:#8000FF;
+}
+.dnav{
+	background:#ecf0f5
+}
+.b-r{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+th{
+    padding:8px;
+}
+td{
+    line-height:3rem!important;
+}
+.table-hea{
+    background:#337ab7;
+    color:#fff;
+    border-radius:5px;
+}

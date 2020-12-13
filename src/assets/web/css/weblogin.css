@@ -1,0 +1,54 @@
+.login
+{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: url(../img/login/bg.png) no-repeat center;
+  background-size: 110% 100%;
+}
+.login .login-box
+{
+  display: flex;
+  justify-content: flex-end;
+  width: 60%;
+  height: 60%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20%;
+  margin: auto;
+  background: url(../img/login/small.png) no-repeat center top;
+  background-size: 100% 130%;
+
+}
+.login .login-box .login-box-body{
+  background:transparent;
+  height: 100%;
+  width: 50%; 
+  padding: 8% 10%;
+  
+}
+.login .op,.login .op button{
+  background-color: #0E90FE;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  height: 50px;
+
+}
+a{color:#fff;}
+
+form input.form-control,.login .op{
+  height: 50px;
+  border-radius: 5px;
+}
+form  .has-feedback span{
+  line-height: 50px;
+}
+.row{
+  margin: 0;
+}
+  

@@ -1,0 +1,85 @@
+.activity {
+  background: #ecf0f5;
+  height: 100%;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.title {
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  margin-bottom: 2px;
+}
+.time,
+.desc {
+  color: #666;
+  margin-bottom: 2px;
+}
+.input {
+  color: #666;
+  margin-left: 8px;
+  width: calc(100% - 35px);
+}
+.content-right {
+  width: 100%;
+  height: 100%;
+  padding-left: 2rem;
+}
+.flex {
+  display: flex;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.list {
+  padding-top: 5px;
+  height: calc(100% - 130px);
+}
+.list-item {
+  height: 100%;
+}
+.list-items {
+  position: relative;
+  justify-content: flex-start;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+/* .db-block {
+  height: 100%;
+  width: 20rem;
+  border-radius: 5px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
+  object-fit: cover;
+} */
+/*  */
+.content-right .top {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  justify-content: space-between;
+}
+.content-right .top .right .el-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+}
+
+.content-right .bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.content-right .bottom .time {
+  padding-top: 5px;
+  color: #999;
+}
+.content-right .bottom .right .el-button {
+  background-color: #fff;
+  color: #0e90fe;
+}
+.content-right .bottom .right .el-button:last-child {
+  color: #e64340;
+}

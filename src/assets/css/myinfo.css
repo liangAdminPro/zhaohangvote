@@ -1,0 +1,88 @@
+
+nav{
+    /* height: 30%; */
+    background: url('../img/myinfo/nav_bg.png') no-repeat top center;
+    background-size: 100% 100%;
+}
+.center{
+    text-align: center;
+    padding: 2rem 0 1rem;
+}
+.center .img{
+    margin:0 auto 1rem;
+    height: 6rem;
+    width: 6rem;
+    background-color: #fff;
+    border-radius: 50%;
+    border:0.3rem solid #F2C375;
+    text-align: center;
+}
+.center .img img{
+  width: 100%;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.center .name,.center .phone{
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+.name{
+    font-size: 1.8rem;
+}
+.phone{
+    margin: auto;
+    width: 10rem;
+    font-size: 1.4rem;
+    padding: 0.3rem 0;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 2rem;
+}
+.phone2{
+    margin: auto;
+    width: 10rem;
+    font-size: 1.4rem;
+    padding: 0.3rem 0;
+    background-color: rgba(0,0,0,0.0);
+    border-radius: 2rem;
+    color: rgba(0,0,0,0);
+}
+.phone2::selection {
+    background:rgba(0,0,0,0.0);
+    color:rgba(0,0,0,0.0);
+}
+.phone2::-moz-selection {
+    background:rgba(0,0,0,0.0);
+    color:rgba(0,0,0,0.0);
+}
+.phone2::-webkit-selection {
+    background:rgba(0,0,0,0.0);
+    color:rgba(0,0,0,0.0);
+}
+.content{
+    padding:2rem 1rem ;
+}
+.content .item{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+}
+.item .left{
+    display: flex;
+    flex:6;
+    justify-content: flex-start;
+    font-size: 1.5rem;
+}
+.item .left img{
+ height: 1.5rem;
+ margin-right: 0.5rem;
+}
+.item .right{
+    text-align: right;
+    flex:4;
+    font-size: 1.5rem;
+    color: #FF5C01;
+}

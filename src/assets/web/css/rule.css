@@ -1,0 +1,104 @@
+.rule{
+    height:calc(100% - 150px);
+    margin-top:5px;
+  }
+  .flex-col{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .base-set,.card-set,.whitelist-set{
+      background-color: #fff;
+      margin-bottom: 10px;
+      padding: 20px;
+  }
+  /* .rule-flex-33{
+    max-height:35%;
+    height:35%;
+    width:100%;
+  }
+  .rule-flex-25{
+    max-height:25%;
+    height:25%;
+    width:100%;
+  } */
+  /* .justify-around{
+    justify-content: space-around;
+  } */
+  .header{
+    border-bottom: 1px dashed #ccc;
+    width:100%;
+    font-size: 18px;
+    color:#000;
+    padding-bottom: 15px;
+  }
+  .vote-times{
+      padding-top:1.5rem;
+      padding-left:40px;
+  }
+   .times{
+      padding-right:2rem;
+  }
+  .whiteset{
+      width:190px;
+      display:inline-block;
+  }
+  .vote-db-block{
+      display:inline-block;
+  }
+  /* 投票下拉框 */
+  .vote-db-block button,.vote-db-block .dropdown-menu{
+    width: 280px;
+} 
+
+/* 计算规则 */
+  .vote-compu-rule{
+      margin-top:30px;
+     padding-top:5px;
+     display:flex;
+     justify-content: flex-start;
+  }
+  .vote-radio{
+      display:flex;
+      justify-content: flex-start;
+  }
+  .vote-active{
+      background:url('../img/xuanzhong.png');
+  }
+  .radio{
+      margin-top: 15px;
+      margin-bottom: 15px;
+  }
+  .vote-unactive{
+      background:url('../img/weixuanzhong.png');
+  }
+  .common{
+      display:inline-block;
+      width:18px;
+      height:18px;
+      background-size:18px 18px;
+      vertical-align: -4px;
+      margin-right:5px;
+  }
+  .card{
+      padding-top: 1.5rem;
+      padding-left: 20px;
+  }
+  .card-fe{
+      margin:2rem 0;
+  }
+  .white{
+      display:inline-block;
+      width:160px;
+  }
+  .save{
+      padding-top:20px;
+      padding-bottom:20px;
+  }
+  .save button{
+      width: 80px;
+      /* width:10%; */
+      background: #0E90FE;
+      /* padding:0 10px; */
+      color: #fff;
+  }

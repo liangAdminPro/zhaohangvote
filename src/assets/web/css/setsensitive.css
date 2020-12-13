@@ -1,0 +1,36 @@
+.setsensitive .header{
+    width:400px;
+    margin: 0 auto ;
+    box-shadow:  0 0 3px rgba(0,0,0,.7);
+    border-radius: 5px;
+    color: #666; 
+}
+.body{
+    line-height:2;
+    margin: 20px 0;
+}
+.sensi{
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc; 
+    font-size:120%;
+}
+label[for]{
+    padding-right:20px;
+    padding-left:20px;
+}
+input[type]{
+    padding-left:8px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 1px #ccc;
+    width: calc(100% - 136px);
+    transition : border-color .35s, box-shadow .35s;
+    border-radius: 2px;
+}
+input:focus{
+    box-shadow: 0 0 1px rgba(102,175,233,.6);
+    border-color: #66afe9;
+}
+.save{
+    padding-top:30px;
+    padding-bottom:20px;
+}

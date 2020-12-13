@@ -1,0 +1,59 @@
+.account{
+    height:100%;
+    margin-left:20px;
+    padding-top:10px;
+    padding-right:20px;
+  }
+
+
+
+
+.list{
+      margin-top:1rem;
+      height:calc(100% - 200px);
+      background-color: #fff;
+  }
+  .list table tr{
+      text-align: center;
+      height: 50px;
+      /* padding: 10px; */
+      border-bottom:1px solid #ccc;
+  }
+  .list table tr td:last-child{
+    width: 30%;
+}
+/* 按钮组 */
+.list table tr td .el-button{
+   background-color: #fff;
+   color: #0E90FE;
+   border-color: #0E90FE;
+}
+.list table tr td .el-button:last-child{
+    color: #E64340;
+    border-color: #E64340;
+ }
+
+ /*  */
+ #accountModal{
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     text-align: center;
+     height: 70%;
+ }
+ .modal-header{
+     border-bottom: 0 solid #000;
+     /* margin-top: 30px; */
+ }
+ /* 提交保存按钮 */
+ .modal-footer{
+     text-align: center;
+     border-top: none;
+     padding-bottom: 80px;
+ }
+ .modal-footer .el-button:last-child{
+     background-color: #fff;
+    color: #0E90FE;
+   border-color: #0E90FE;
+}
+ /*  */

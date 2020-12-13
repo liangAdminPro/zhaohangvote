@@ -1,0 +1,8 @@
+node_modules/
+package-lock.json
+upload/
+tmp/
+dist/
+dist2/
+yarn.lock
+cmbvote/

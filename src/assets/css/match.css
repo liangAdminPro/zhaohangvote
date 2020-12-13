@@ -1,0 +1,232 @@
+.container{
+    width: 100%;
+    background: url('../img/match/bigbg.png') no-repeat top center;
+    background-size: 100% 100%;
+    padding-top: 23rem;
+}
+header img{
+    width: 32%;
+    display: block;
+    margin: auto;
+}
+.content{
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+.content .item{
+  
+    background:url('../img/match/sign.png') no-repeat center top  ;
+    background-size: 100% 100%;
+    border-radius: 10px;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    color:#cc533a;
+    text-align: center;
+}
+/* 标题 */
+.content .item span{
+    text-align: center;
+    padding: 0.2rem 1rem;
+    line-height: 2rem;
+    font-weight: 500;
+    border-radius: 15px;
+    font-size: 1.6rem;
+}
+.content .item span.sign{
+    background: url('../img/match/sign-title.png') no-repeat center;
+    background-size: 100% 100% ; 
+    color: #df6232;
+}
+/* 文字内容 */
+.content .item .text{
+    text-align: left;
+    margin: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 1px;
+}
+.text p{
+    margin-bottom: 2rem;
+}
+.item .text p:last-child{
+    margin-bottom: 0;
+}
+.content .item .indent{
+    padding-left: 1rem;
+    padding-bottom: 1px;
+}
+.indent p{
+   text-indent: 2em;
+}
+/* 比赛机制 */
+.content .mechanism{
+    background: url('../img/match/jizhi.png') no-repeat center top;
+    background-size: 100% 100%;
+    padding-top: 0;
+    
+}
+/* 标签 */
+.item span.lable{
+    color: #fff;
+    text-align: center;
+    display:block;
+    margin-bottom: 1.2rem;
+}
+/* 线下 */
+.item span.underline{
+    background: url('../img/match/underline.png') no-repeat center top;
+    background-size: 100% 100%;
+    color: #fff; 
+    font-size: 1.4rem;
+    padding: 0.5rem 2rem;
+}
+/* 赛事流程 */
+.content .process{
+    background: url('../img/match/process.png') no-repeat center top;
+    background-size: 100% 100%;
+    padding-bottom: 2rem;
+}
+.process .center p {
+    text-align: center;
+}
+.process .center p i{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    background: url('../img/match/text-bg.png') no-repeat center bottom;
+    background-size: contain;
+}
+.item .center p span{
+    background: transparent;
+    font-size: 1.4rem;
+    padding: 0;
+    text-align: center;
+}
+.item .center p i span:nth-child(1){
+   color: #fff000;
+}
+.item .center p i span:nth-child(2){
+    color: #fff;
+ }
+
+
+ /*奖项设置*/
+ .content .setting{
+    padding-top: 0;
+    background: url('../img/match/setting.png') no-repeat center bottom;
+    background-size: 100% 100%;
+    padding-bottom: 2rem;
+    margin-bottom: -0.7rem;
+    position: relative;
+    z-index: 1;
+ }
+ .item .itemlist {
+     margin-bottom: 2rem;
+ }
+ .item .itemlist .title{
+     width: 10rem;
+     height: 2.5rem;
+    background: url('../img/match/item-bg.png') no-repeat -0.1rem bottom;
+    background-size: 100% 100%;
+    line-height: 2.5rem;
+   color: #fff;
+   display: flex;
+   justify-content: space-around;
+ }
+.item .itemlist .title span{
+    padding:0.3rem 0;
+}
+
+ ul.prizelist{
+     background-color: #ffebb3;
+     margin: 1rem;
+     /* padding-bottom: 1rem; */
+ }
+ ul.prizelist li{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 1.5rem;
+    color:#b46e01;
+    border-bottom: 0.5px solid #fff;
+ }
+ ul.prizelist li:last-child{
+     border-bottom: 0;
+ }
+
+ /* 竞赛项目 */
+ .content .competition{
+    background: url('../img/match/competition.png') no-repeat center top;
+    background-size: 100% 100%;
+    padding-top: 0;
+ }
+
+ /* 特色活动 */
+ .content .activity{
+    background: url('../img/match/activity.png') no-repeat center top;
+    background-size: 100% 100%;
+    padding-top: 0.7rem;
+    margin-bottom: 2rem;
+ }
+ .content .activity .special{
+     color: #fff;
+     background-color: #f39a35;
+     padding: 0 1rem;
+     font-size: 1.4rem;
+ }
+ .item h4{
+     margin-top: 2rem;
+     font-size: 1.6rem;
+ }
+ .item h4 em{
+     font-style: italic;
+     font-weight: 500;
+     color: #C08535;
+     background:  url('../img/match/text-bg1.png') no-repeat center bottom;
+    background-size: contain;
+    
+ }
+ .item h4 i{
+    margin-right: 1rem;
+    font-size: 1.4rem;
+    color: #DD6234;
+    font-weight: 400;
+}
+.item .share p{
+    margin-bottom: 0;
+    margin-left: 0.5rem;
+
+}
+.item .share p:nth-child(2){
+    text-align: center;
+}
+.item .share p:nth-child(3){
+    text-align: right;
+    margin-bottom: 0;
+}
+/* 报名方式 参赛方式 */
+.content .way{
+    background: url('../img/match/sign-way.png') no-repeat center top;
+    background-size: 100% 100%;
+    padding-top: 0;
+    padding-bottom: 3rem;
+    position: relative;
+    z-index: 2;
+}
+.content .beat{
+    background: url('../img/match/beat-way.png') no-repeat center top;
+    background-size: 100% 100%;
+    padding-top: 0;
+    padding-bottom: 3rem;
+    margin-top: -2rem;
+    position: relative;
+    z-index: 1;
+}
+.content .require{
+    background: url('../img/match/bg7.png') no-repeat center top;
+    background-size: 100% 100%;
+    padding-top: 0;
+    padding-bottom: 3rem;
+    margin-top: -2rem;
+}
+.content .require .lable{
+    margin-bottom: 2.2rem;
+}
